@@ -8,9 +8,9 @@ function situação()
     const nota2 = Number(usuario('Digite a nota da 2ª Avaliação: '));
     const nota3 = Number(usuario('Digite a nota das Atividades: '));
     
-    const peso1 = nota3 * 0.10
-    const peso2 = nota1 * 0.20
-    const peso3 = nota2 * 0.30
+    const peso1 = 1;
+    const peso2 = 2;
+    const peso3 = 3;
     
     function Média(n1,n2,n3,p1,p2,p3)
     {
